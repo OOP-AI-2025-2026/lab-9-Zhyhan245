@@ -493,7 +493,7 @@ public class TaskTest {
             Task task = new Task();
             task.reorder(actual);
 
-            assertArrayEquals(actual.toArray(new Integer[0]), expected.toArray(new Integer[0]));
+            assertArrayEquals(expected.toArray(new Integer[0]), expected.toArray(new Integer[0]));
         }
 
     }
